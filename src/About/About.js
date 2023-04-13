@@ -1,6 +1,6 @@
 import React from "react";
 import './About.css'
-import Picture from './Blueberry2.png'
+
 
 export default function About() {
     return (
