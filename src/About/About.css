@@ -1,6 +1,11 @@
 .about {
     margin: 0px;
-    position: relative;
+    background-color: #261515;
+    background-image: url("./BlueberryLarge.png");
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 4px 9px 2px #231414;
 }
 
 .text-box {
@@ -8,10 +13,7 @@
     flex-direction: column;
     width: 350px;
     height: 350px;
-    padding: 50px;
     color: #F5F1EF;
-    position: absolute;
-    z-index: 2;
 }
 
 .name {
@@ -46,10 +48,4 @@
     margin: 0px;
     font-size: 14px;
     font-weight: 600;
-}
-
-.picture {
-    max-width: 100%;
-    position: absolute;
-    box-shadow: 0px 4px 9px 2px #231414;
 }

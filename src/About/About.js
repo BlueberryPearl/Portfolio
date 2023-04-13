@@ -5,7 +5,6 @@ import Picture from './Blueberry2.png'
 export default function About() {
     return (
         <main className="about">
-            <img className="picture" src={Picture} alt="Background"></img>
             <div className="text-box">
                 <h1 className="name">Najette Chouchane</h1>
                 <h2 className="title">Frontend Developer</h2>
