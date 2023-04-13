@@ -42,10 +42,10 @@
 
 .skills {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 100px 100px;
     grid-template-rows: auto;
     padding-left: 20px;
     margin: 0px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
 }
