@@ -1,5 +1,9 @@
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    padding: 0px 150px;
+    padding-top: 0px;
+}
+
+.App {
+    width: 780px;
 }

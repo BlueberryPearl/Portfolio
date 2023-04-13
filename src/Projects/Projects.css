@@ -19,18 +19,38 @@
 .projects {
     display: flex;
     flex-direction: row;
-    height: 410px;
+    height: 350px;
     gap: 20px;
 }
 
-.project-images {
-    width: 310px;
-    height: 189px;
-}
+
 
 .dbc,
 .travel-journal,
 .cyclone-station {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
     background-color: #D2C7C5;
-    width: 310px;
+    width: 225px;
+}
+
+.project-images {
+    width: 225px;
+    box-shadow: 0px 4px 4px 0px hsla(0, 0%, 0%, 0.40);
+    cursor: pointer;
+}
+
+.project-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+.project-description {
+    font-size: 12px;
+    padding: 20px;
+    margin: 0px;
 }
