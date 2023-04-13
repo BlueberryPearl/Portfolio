@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
+import About from "./About/About";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Hello and welcome to my portfolio!</h1>
+      <About />
     </div>
   );
 }
