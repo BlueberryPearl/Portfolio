@@ -1,8 +1,101 @@
 .contact {
     background-color: #8B7F7A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
 .contact-title {
     margin: 0px;
     text-decoration: underline;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 25px;
+}
+
+.contact-name,
+.contact-email,
+.contact-message {
+    border: none;
+    color: black;
+    border-bottom: 1px solid #FFE3D1;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.contact-name:focus,
+.contact-email:focus,
+.contact-message:focus {
+    outline: 1px solid #FFE3D1;
+    background-color: #675d59;
+    border: none;
+    color: white;
+}
+
+::placeholder {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+.nameAndEmail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.contact-message {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contact-send {
+    align-self: center;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #251515;
+    color: #F4ECEC;
+    font-size: 15px;
+    padding: 10px;
+    width: 5.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-send:hover {
+    background-color: rgb(242, 167, 63);
+    color: #251515;
+}
+
+.contact-send>img {
+    width: 7px;
+    padding-left: 4px;
+    padding-bottom: 2px;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding-top: 7px;
+}
+
+.icons>img {
+    width: 20px;
 }
