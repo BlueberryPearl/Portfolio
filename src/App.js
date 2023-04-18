@@ -4,6 +4,7 @@ import About from "./About/About";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 import { useRef } from "react";
+import ScrollButton from "./Components/ScrollButton";
 
 function App() {
   const about = useRef(null);
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div className="App">
+      <ScrollButton />
       <Navbar scroll={scrollToSection}
         about={about}
         projects={projects}
