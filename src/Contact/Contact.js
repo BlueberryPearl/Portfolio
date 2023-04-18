@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import './Contact.css'
-import plane from './send.png'
 import { useFormspark } from "@formspark/use-formspark";
-import insta from './insta.png'
-import github from './github.png'
-import youtube from './youtube.png'
-import mail from './mail.png'
-
-
-
+import { ReactComponent as Mail } from './envelope-solid.svg';
+import { ReactComponent as GitHub } from './github.svg';
+import { ReactComponent as Insta } from './instagram.svg'
+import { ReactComponent as LinkedIn } from './linkedin.svg'
+import { ReactComponent as YouTube } from './youtube.svg'
+import { ReactComponent as Plane } from './paper-plane-solid.svg';
 
 
 
@@ -88,15 +86,16 @@ export default function Contact(props) {
                         <input type="email" id='email' value={email} onChange={emailChange} className="contact-email" placeholder="Email"></input>
                     </div>
                     <textarea value={message} id='message' onChange={messageChange} className="contact-message" placeholder="Message" />
-                    <button type="submit" disabled={submitting} className="contact-send">Send<img src={plane} alt="send"></img></button>
+                    <button type="submit" disabled={submitting} className="contact-send">Send<Plane className="plane" /></button>
 
                 </form>
             </div>
             <div className="icons">
-                <img src={mail} alt='Email'></img>
-                <img src={github} alt='GitHub'></img>
-                <img src={youtube} alt='Youtube'></img>
-                <img src={insta} alt='Instagram'></img>
+                <a href='mailto: najette@chouchane.com'><Mail className="contact-icon" /></a>
+                <a href="https://github.com/BlueberryPearl" target="_blank" rel='noopener noreferrer'><GitHub className="contact-icon" /></a>
+                <a href="https://www.linkedin.com/in/najette-chouchane-a939abb9/" target="_blank" rel='noopener noreferrer'><LinkedIn className="contact-icon" /></a>
+                <a href="https://www.youtube.com/@blueberrypearl7087" target="_blank" rel='noopener noreferrer'><YouTube className="contact-icon" /></a>
+                <a href="https://www.instagram.com/blue.berrypearl/" target="_blank" rel='noopener noreferrer'><Insta className="contact-icon" /></a>
             </div>
 
         </main>

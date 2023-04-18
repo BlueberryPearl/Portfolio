@@ -83,20 +83,34 @@ form {
     color: #251515;
 }
 
-.contact-send>img {
+.plane {
     width: 7px;
     padding-left: 4px;
     padding-bottom: 2px;
+    fill: #ffb639;
+    transition: all 0.3s ease;
 }
 
+.contact-send:hover .plane {
+    fill: #100a0a;
+}
 
 .icons {
     display: flex;
     flex-direction: row;
-    gap: 8px;
-    padding-top: 7px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
 }
 
-.icons>img {
-    width: 20px;
+.contact-icon {
+    fill: #100a0a;
+    height: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-icon:hover {
+    fill: #FF701F;
 }
