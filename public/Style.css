@@ -2,8 +2,13 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     padding-top: 0px;
+    background-color: #261515;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .App {
-    width: 780px;
+    width: 875px;
+    margin-bottom: 200px;
 }
