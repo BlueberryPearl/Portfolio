@@ -15,7 +15,7 @@ import mail from './mail.png'
 const FORMSPARK_FORM_ID = 'XKzxyWXI'
 
 
-export default function Contact() {
+export default function Contact(props) {
     const [submit, submitting] = useFormspark({
         formId: FORMSPARK_FORM_ID
     });
@@ -79,7 +79,7 @@ export default function Contact() {
 
 
     return (
-        <main className="contact">
+        <main ref={props.contact} className="contact">
             <h1 className="contact-title">Contact Me</h1>
             <div className="form">
                 <form onSubmit={onSubmit}>

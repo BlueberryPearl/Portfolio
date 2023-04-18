@@ -4,9 +4,9 @@ import dbc from './dbcThumnail.png'
 import themeThumbnail from './themeThumbnail.png'
 import tj from './tjThumbnail..png'
 
-export default function Projects() {
+export default function Projects(props) {
     return (
-        <main className="my-projects">
+        <main ref={props.projects} className="my-projects">
             <h1 className="my-projects-title">My Projects</h1>
             <div className="projects">
                 <div className="dbc">

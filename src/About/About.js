@@ -2,9 +2,9 @@ import React from "react";
 import './About.css'
 
 
-export default function About() {
+export default function About(props) {
     return (
-        <main className="about">
+        <main ref={props.about} className="about">
             <div className="text-box">
                 <h1 className="name">Najette Chouchane</h1>
                 <h2 className="title">Frontend Developer</h2>
