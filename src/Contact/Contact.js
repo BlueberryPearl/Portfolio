@@ -48,8 +48,7 @@ export default function Contact(props) {
     const onSubmit = async (e) => {
         e.preventDefault();
         resetForm()
-        console.log(form)
-        //await submit(form);
+        await submit(form);
         alert("Sent!");
     };
 

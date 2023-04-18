@@ -5,7 +5,7 @@
     padding: 60px;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 4px 9px 2px #231414;
+    border-bottom: 1px solid #0f0808;
 }
 
 .text-box {
