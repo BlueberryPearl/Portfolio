@@ -1,12 +1,12 @@
 .my-projects {
     margin: 0px;
-    padding: 45px 60px;
+    padding: 30px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #F4EFEE;
-    height: 675px;
+    height: 700px;
     border-bottom: 1.5px solid #0f0808;
 }
 
@@ -14,15 +14,18 @@
     color: #231414;
     text-decoration: underline;
     font-weight: 400;
-    padding-bottom: 45px;
+    padding-bottom: 15px;
+    padding-top: 40px;
     margin: 0px;
 }
 
 .projects {
     display: flex;
     flex-direction: row;
-    height: 525px;
+    height: 575px;
     gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 
