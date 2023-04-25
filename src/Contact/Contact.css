@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 50px;
-    height: 410px;
+    height: 615px;
 }
 
 .contact-title {
@@ -13,17 +13,20 @@
     text-decoration: underline;
     font-weight: 400;
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    font-size: 36px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
-    border: 1px solid black;
+    border: 1.5px solid black;
     border-radius: 3px;
-    padding: 25px;
+    padding: 60px 50px 30px 50px;
+    width: 450px;
+    height: 250px;
 }
 
 .contact-name,
@@ -31,15 +34,18 @@ form {
 .contact-message {
     border: none;
     color: black;
-    border-bottom: 1px solid #FFE3D1;
+    border-bottom: 1.5px solid #FFE3D1;
     background-color: transparent;
     transition: all 0.3s ease;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    width: 200px
 }
 
 .contact-name:focus,
 .contact-email:focus,
 .contact-message:focus {
-    outline: 1px solid #FFE3D1;
+    outline: 1.5px solid #FFE3D1;
     background-color: #675d59;
     border: none;
     color: white;
@@ -48,32 +54,34 @@ form {
 ::placeholder {
     color: black;
     font-family: 'Inter', sans-serif;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .nameAndEmail {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 30px;
+    gap: 45px;
+
 }
 
 .contact-message {
     display: block;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 100%;
+    height: 80px;
 }
 
 .contact-send {
     align-self: center;
-    margin-top: 20px;
+    margin-top: 0px;
     border: none;
     border-radius: 8px;
     background-color: #251515;
     color: #F4ECEC;
-    font-size: 15px;
-    padding: 10px;
-    width: 5.5rem;
+    font-size: 22.5px;
+    padding: 15px;
+    width: 8.25rem;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -84,9 +92,9 @@ form {
 }
 
 .plane {
-    width: 7px;
-    padding-left: 4px;
-    padding-bottom: 2px;
+    width: 10.5px;
+    padding-left: 6px;
+    padding-bottom: 3px;
     fill: #ffb639;
     transition: all 0.3s ease;
 }
@@ -100,17 +108,24 @@ form {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    padding: 10px;
+    gap: 15px;
+    padding: 15px;
 }
 
 .contact-icon {
     fill: #100a0a;
-    height: 30px;
+    height: 35px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .contact-icon:hover {
     fill: #FF701F;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background-color: transparent;
 }
