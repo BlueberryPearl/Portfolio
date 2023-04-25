@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.56f065c3.css",
+    "main.js": "/Portfolio/static/js/main.64970642.js",
+    "static/media/BlueberryLarge.png": "/Portfolio/static/media/BlueberryLarge.9ba3c3cf85c99e399f98.png",
+    "static/media/themeThumbnail.png": "/Portfolio/static/media/themeThumbnail.756f2dc1b5f47625ebe7.png",
+    "static/media/tjThumbnail..png": "/Portfolio/static/media/tjThumbnail..8e440ed1b3402387ff39.png",
+    "static/media/dbcThumnail.png": "/Portfolio/static/media/dbcThumnail.184af5a8a7615a1c01ad.png",
+    "static/media/github.svg": "/Portfolio/static/media/github.994d83533a94845cd5300c70a1ed8f60.svg",
+    "static/media/instagram.svg": "/Portfolio/static/media/instagram.bbb77cd2abfb2a3472b73bf83a086a44.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/youtube.svg": "/Portfolio/static/media/youtube.3e1e7e5eb1f288f2a87b86467224ea0e.svg",
+    "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.3cd414368e83e1386e165c80fcefab8f.svg",
+    "static/media/paper-plane-solid.svg": "/Portfolio/static/media/paper-plane-solid.24bc48ae6f8caeed08b9528e0b927eba.svg",
+    "static/media/envelope-solid.svg": "/Portfolio/static/media/envelope-solid.08714ae9f31afe3e7bcb8b7f20c0be9b.svg",
+    "static/media/arrow.svg": "/Portfolio/static/media/arrow.2b77df4109cad79c544907e8787b5c75.svg",
+    "main.56f065c3.css.map": "/Portfolio/static/css/main.56f065c3.css.map",
+    "main.64970642.js.map": "/Portfolio/static/js/main.64970642.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56f065c3.css",
+    "static/js/main.64970642.js"
+  ]
+}
