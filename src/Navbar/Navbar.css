@@ -36,3 +36,23 @@
 .nav-link:hover {
     color: rgb(235, 81, 54);
 }
+
+
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 25px 15px;
+        font-size: 12px;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .nav-pages {
+        gap: 30px;
+        font-size: 17px;
+    }
+
+    .email {
+        display: none;
+    }
+}
