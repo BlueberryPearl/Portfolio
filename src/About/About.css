@@ -50,3 +50,36 @@
     font-size: 18px;
     font-weight: 600;
 }
+
+
+@media screen and (max-width: 480px) {
+    .about {
+        padding: 60px;
+        background-image: none;
+    }
+
+    .text-box {
+        max-width: 400px;
+        height: auto;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .intro {
+        font-size: 17px;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        column-gap: 0px;
+        padding-left: 30px;
+        max-width: 300px;
+    }
+}
