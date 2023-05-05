@@ -9,7 +9,10 @@ const ScrollButton = () => {
         window.addEventListener('scroll', () => {
             if (window.scrollY > 300) {
                 setShowScrollButton(true)
-            } else {
+            } else if (window.innerWidth < 481 && window.scrollY > 50) {
+                setShowScrollButton(true)
+            }
+            else {
                 setShowScrollButton(false)
             }
             console.log(showScrollButton)
