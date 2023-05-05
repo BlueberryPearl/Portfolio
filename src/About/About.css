@@ -64,6 +64,7 @@
         padding: 0px;
         justify-content: center;
         align-items: center;
+        padding: 20px;
     }
 
     .title {
@@ -80,7 +81,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
-        column-gap: 0px;
+        column-gap: 60px;
         padding-left: 30px;
         max-width: 300px;
     }
