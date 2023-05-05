@@ -60,6 +60,7 @@
 
     .text-box {
         max-width: 400px;
+        width: auto;
         height: auto;
         padding: 15px;
         justify-content: center;

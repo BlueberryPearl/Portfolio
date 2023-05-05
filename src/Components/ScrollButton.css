@@ -19,3 +19,17 @@
     border: 1.75px solid #140B0B;
     fill: rgb(255, 171, 53);
 }
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .scroll-button {
+        position: fixed;
+        width: 45px;
+        height: 45px;
+        bottom: 22.5px;
+        right: 30px;
+    }
+}

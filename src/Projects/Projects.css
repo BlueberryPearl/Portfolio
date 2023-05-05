@@ -78,7 +78,7 @@
 @media screen and (max-width: 480px) {
     .my-projects {
         padding: 30px 40px;
-        height: auto;
+        height: max-content;
     }
 
     .my-projects-title {
@@ -88,7 +88,9 @@
 
     .projects {
         flex-direction: column;
-        height: 575px;
+        justify-content: center;
+        align-items: center;
+        height: auto;
         gap: 30px;
         padding-top: 30px;
         padding-bottom: 40px;
@@ -98,6 +100,8 @@
     .travel-journal,
     .cyclone-station {
         max-width: 337.5px;
+        justify-content: center;
+        border: 1.5px solid black;
     }
 
     .project-images {
