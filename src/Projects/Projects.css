@@ -71,3 +71,36 @@
     padding: 30px;
     margin: 0px;
 }
+
+
+
+
+@media screen and (max-width: 480px) {
+    .my-projects {
+        padding: 30px 40px;
+        height: auto;
+    }
+
+    .my-projects-title {
+        padding-bottom: 15px;
+        padding-top: 25px;
+    }
+
+    .projects {
+        flex-direction: column;
+        height: 575px;
+        gap: 30px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .dbc,
+    .travel-journal,
+    .cyclone-station {
+        max-width: 337.5px;
+    }
+
+    .project-images {
+        max-width: 337.5px;
+    }
+}
