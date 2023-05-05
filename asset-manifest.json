@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.20182fe7.css",
+    "main.css": "/Portfolio/static/css/main.63f3a992.css",
     "main.js": "/Portfolio/static/js/main.47038d23.js",
     "static/media/BlueberryLarge.png": "/Portfolio/static/media/BlueberryLarge.9ba3c3cf85c99e399f98.png",
     "static/media/themeThumbnail.png": "/Portfolio/static/media/themeThumbnail.756f2dc1b5f47625ebe7.png",
@@ -14,11 +14,11 @@
     "static/media/paper-plane-solid.svg": "/Portfolio/static/media/paper-plane-solid.24bc48ae6f8caeed08b9528e0b927eba.svg",
     "static/media/envelope-solid.svg": "/Portfolio/static/media/envelope-solid.08714ae9f31afe3e7bcb8b7f20c0be9b.svg",
     "static/media/arrow.svg": "/Portfolio/static/media/arrow.2b77df4109cad79c544907e8787b5c75.svg",
-    "main.20182fe7.css.map": "/Portfolio/static/css/main.20182fe7.css.map",
+    "main.63f3a992.css.map": "/Portfolio/static/css/main.63f3a992.css.map",
     "main.47038d23.js.map": "/Portfolio/static/js/main.47038d23.js.map"
   },
   "entrypoints": [
-    "static/css/main.20182fe7.css",
+    "static/css/main.63f3a992.css",
     "static/js/main.47038d23.js"
   ]
 }
