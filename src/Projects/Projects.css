@@ -77,7 +77,7 @@
 
 @media screen and (max-width: 480px) {
     .my-projects {
-        padding: 30px 40px;
+        padding: 30px 0px;
         height: max-content;
     }
 
