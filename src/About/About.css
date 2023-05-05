@@ -54,15 +54,14 @@
 
 @media screen and (max-width: 480px) {
     .about {
-        padding: 60px;
+        padding: 30px 30px 60px 30px;
         background-image: none;
     }
 
     .text-box {
-        max-width: 400px;
         width: auto;
-        height: auto;
-        padding: 15px;
+        height: 100%;
+        padding: 0px;
         justify-content: center;
         align-items: center;
     }
@@ -73,6 +72,8 @@
 
     .intro {
         font-size: 17px;
+        text-align: center;
+
     }
 
     .skills {

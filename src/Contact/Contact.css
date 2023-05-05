@@ -129,3 +129,49 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
     background-color: transparent;
 }
+
+
+
+
+@media screen and (max-width:480px) {
+    .contact {
+        padding: 25px;
+        padding-top: 30px;
+        height: auto;
+    }
+
+    .contact-title {
+        padding-bottom: 30px;
+        padding-top: 15px;
+    }
+
+    form {
+        padding: 40px 40px 30px 40px;
+        width: auto;
+        height: auto;
+    }
+
+    .nameAndEmail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+
+    }
+
+    .contact-message {
+        width: auto;
+        height: 100px;
+    }
+
+    .contact-name,
+    .contact-email,
+    .contact-message {
+        width: auto
+    }
+
+    .contact-send {
+        margin-top: 30px;
+    }
+}

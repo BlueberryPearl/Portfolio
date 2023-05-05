@@ -16,7 +16,7 @@ body {
 
 @media screen and (max-width: 480px) {
     .App {
-        max-width: 480px;
+        width: auto;
         margin-bottom: 30px;
     }
 }
