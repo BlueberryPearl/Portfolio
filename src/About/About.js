@@ -18,6 +18,7 @@ export default function About(props) {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Figma</li>
+                    <li>Responsive Web Design</li>
                 </ul>
             </div>
         </main>
