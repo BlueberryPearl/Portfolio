@@ -12,3 +12,11 @@ body {
     width: 1312.5px;
     margin-bottom: 300px;
 }
+
+
+@media screen and (max-width: 480px) {
+    .App {
+        width: auto;
+        margin-bottom: 30px;
+    }
+}
